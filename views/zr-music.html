@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ZR Music PRO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<!-- ================= HERO ================= -->
+
+<section class="music-hero">
+    <div class="music-container">
+
+        <div class="music-badge">⚡ Stable Build 1.1.0</div>
+
+        <h1 class="music-title">ZR Music PRO</h1>
+
+        <p class="music-sub">
+            Reproductor profesional desarrollado en Python con arquitectura modular,
+            sistema avanzado de descargas, manejo global de errores y motor optimizado
+            para una experiencia estable y fluida en Windows.
+        </p>
+
+        <div class="music-buttons">
+            <a href="/download/zr-build-v3-installer" class="btn-download-main">
+                ⬇ Descargar ZR Music Installer
+            </a>
+            <a href="/" class="btn-secondary">
+            Volver al inicio
+        </a>
+    </div>
+
+    <div class="electric-line"></div>
+</section>
+
+<!-- ================= INFO ================= -->
+
+<section class="music-info">
+
+    <div class="music-container">
+
+        <!-- INSTALADOR -->
+        <div class="music-block">
+            <div class="music-text">
+                <h2>🖥 Instalador Profesional</h2>
+                <p>
+                    ZR Music incluye un instalador independiente optimizado para Windows 10 y 11.
+                </p>
+                <p>
+                    El sistema verifica rutas, crea directorios necesarios, configura dependencias
+                    internas y deja la aplicación lista para ejecutarse sin configuración manual.
+                </p>
+                <p>
+                    Incluye barra de progreso en tiempo real y control de versiones.
+                </p>
+            </div>
+            <div class="music-image">
+                <img src="/images/music-installer.png" alt="ZR Music Installer">
+            </div>
+        </div>
+
+        <!-- ARQUITECTURA -->
+        <div class="music-block reverse">
+            <div class="music-image">
+                <img src="/images/music-main.png" alt="ZR Music Interfaz">
+            </div>
+            <div class="music-text">
+                <h2>🧠 Arquitectura Modular</h2>
+
+                <p>
+                    Construido bajo un enfoque modular separando lógica de interfaz,
+                    reproducción y descargas.
+                </p>
+
+                <ul>
+                    <li>✔ UI basada en PySide6 (Qt)</li>
+                    <li>✔ Separación por módulos (ui / core / themes)</li>
+                    <li>✔ Gestión global de excepciones</li>
+                    <li>✔ Sistema de logging persistente</li>
+                    <li>✔ Manejo seguro de rutas empaquetadas</li>
+                    <li>✔ Configuración en archivo JSON</li>
+                </ul>
+
+                <p>
+                    La estructura permite escalabilidad futura y mantenimiento limpio del código.
+                </p>
+            </div>
+        </div>
+
+        <!-- MOTOR -->
+        <div class="music-block">
+            <div class="music-text">
+                <h2>🎵 Motor de Reproducción</h2>
+
+                <p>
+                    Utiliza pygame mixer optimizado para baja latencia y estabilidad.
+                </p>
+
+                <ul>
+                    <li>✔ Barra de progreso sincronizada</li>
+                    <li>✔ Control preciso de volumen</li>
+                    <li>✔ Shuffle inteligente</li>
+                    <li>✔ Repeat individual y global</li>
+                    <li>✔ Lectura automática de metadata (Mutagen)</li>
+                </ul>
+
+                <p>
+                    El sistema mantiene sincronización incluso al cambiar canciones manualmente.
+                </p>
+            </div>
+            <div class="music-image">
+                <img src="/images/music-player.png" alt="ZR Music Player">
+            </div>
+        </div>
+
+        <!-- DESCARGAS -->
+        <div class="music-block reverse">
+            <div class="music-text">
+                <h2>⬇ Sistema de Descargas</h2>
+
+                <p>
+                    Integración directa con yt-dlp para descargar contenido desde YouTube.
+                </p>
+
+                <ul>
+                    <li>✔ Selección automática de calidad</li>
+                    <li>✔ Conversión optimizada a MP3</li>
+                    <li>✔ Gestión automática de nombres</li>
+                    <li>✔ Protección ante errores de red</li>
+                </ul>
+
+                <p>
+                    Los errores críticos son registrados automáticamente en logs.
+                </p>
+            </div>
+        </div>
+
+        <!-- SEGURIDAD -->
+        <div class="music-block">
+            <div class="music-text">
+                <h2>🔐 Estabilidad y Seguridad</h2>
+
+                <p>
+                    Implementa un manejador global de excepciones para evitar cierres inesperados.
+                </p>
+
+                <ul>
+                    <li>✔ try/except centralizado</li>
+                    <li>✔ Registro automático en logs/app.log</li>
+                    <li>✔ Protección ante KeyboardInterrupt</li>
+                    <li>✔ Manejo seguro de recursos empaquetados</li>
+                </ul>
+
+                <p>
+                    Garantiza una experiencia estable incluso en condiciones no ideales.
+                </p>
+            </div>
+        </div>
+
+        <!-- ESPECIFICACIONES -->
+        <div class="music-block reverse">
+            <div class="music-text">
+                <h2>📦 Especificaciones Técnicas</h2>
+
+                <h3>Requisitos del Sistema</h3>
+                <ul>
+                    <li>Windows 10 / 11 (64 bits)</li>
+                    <li>Procesador x64</li>
+                    <li>200 MB libres</li>
+                    <li>Conexión a internet</li>
+                </ul>
+
+                <h3>Tecnologías Utilizadas</h3>
+                <ul>
+                    <li>Python 3.11</li>
+                    <li>PySide6</li>
+                    <li>pygame</li>
+                    <li>yt-dlp</li>
+                    <li>mutagen</li>
+                    <li>PyInstaller</li>
+                </ul>
+
+                <h3>Tamaño Aproximado</h3>
+                <ul>
+                    <li>Installer: ~30–40 MB</li>
+                    <li>Instalación final: ~150–200 MB</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <!-- ROADMAP -->
+        <div class="music-block">
+            <div class="music-text">
+                <h2>🚀 Roadmap Futuro</h2>
+
+                <ul>
+                    <li>🔹 Sistema de actualizaciones automáticas</li>
+                    <li>🔹 Visualizador de audio en tiempo real</li>
+                    <li>🔹 Temas dinámicos personalizables</li>
+                    <li>🔹 Integración con APIs externas</li>
+                    <li>🔹 Versión multiplataforma</li>
+                </ul>
+
+                <p>
+                    ZR Music es un proyecto en evolución constante.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
